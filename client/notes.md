@@ -41,3 +41,18 @@ yarn add nativewind
 ```
 
 do this, better install yarn instead of npm.
+
+---
+
+# _Now lets start with Navigation:_
+
+install react navigation by adding `npm install @react-navigation/native`
+
+need to install expo dependancy for react navigation:
+`npx expo install react-native-screens react-native-safe-area-context`
+
+alsi install native stack:
+
+`npm install @react-navigation/native-stack`
+
+It is because when we serach an ural /:id its pushed on to browser history, when we go back its getting popped.
